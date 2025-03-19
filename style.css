@@ -1,0 +1,29 @@
+
+ul {
+  list-style-type: none;
+  width: 200px;
+}
+li:nth-child(even){
+  background-color: yellow;
+}
+li:nth-child(even) a{
+  color: blue;
+}
+
+li:nth-child(odd) a{
+  color: yellow;
+}
+li:nth-child(odd){
+  background-color: blue;
+}
+
+li{
+  padding: 10px;
+  text-align: center;
+  border:2px solid red;
+  width: 100px;
+}
+
+a{
+  text-decoration: none;
+}
